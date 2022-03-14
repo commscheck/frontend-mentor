@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: `Frontend Mentor Challenges`,
-    siteUrl: `https://www.crankygoblin.net/fm`,
+    siteUrl: `https://fm.crankygoblin.net`,
   },
   plugins: [
     "gatsby-plugin-image",
