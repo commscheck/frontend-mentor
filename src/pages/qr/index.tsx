@@ -1,8 +1,8 @@
-import { StaticImage } from "gatsby-plugin-image";
-import * as React from "react";
-import Layout from "../../components/layout/layout";
+import { StaticImage } from 'gatsby-plugin-image';
+import * as React from 'react';
+import Layout from '../../components/layout/layout';
 
-import * as styles from "./qr.css";
+import * as styles from './qr.css';
 
 const QrComponent = () => {
   return (

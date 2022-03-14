@@ -1,35 +1,35 @@
-import { globalStyle } from "@vanilla-extract/css";
+import { globalStyle } from '@vanilla-extract/css';
 
-globalStyle("*, *::before, *::after", {
-  boxSizing: "border-box",
+globalStyle('*, *::before, *::after', {
+  boxSizing: 'border-box',
 });
 
-globalStyle("*", {
+globalStyle('*', {
   margin: 0,
 });
 
-globalStyle("html, body", {
-  height: "100%",
+globalStyle('html, body', {
+  height: '100%',
 });
 
-globalStyle("body", {
+globalStyle('body', {
   lineHeight: 1.5,
-  WebkitFontSmoothing: "antialiased",
+  WebkitFontSmoothing: 'antialiased',
 });
 
-globalStyle("img, picture, video, canvas, svg", {
-  display: "block",
-  maxWidth: "100%",
+globalStyle('img, picture, video, canvas, svg', {
+  display: 'block',
+  maxWidth: '100%',
 });
 
-globalStyle("input, button, textarea, select", {
-  font: "inherit",
+globalStyle('input, button, textarea, select', {
+  font: 'inherit',
 });
 
-globalStyle("p, h1, h2, h3, h4, h5, h6", {
-  overflowWrap: "break-word",
+globalStyle('p, h1, h2, h3, h4, h5, h6', {
+  overflowWrap: 'break-word',
 });
 
-globalStyle("#root, #__next", {
-  isolation: "isolate",
+globalStyle('#root, #__next', {
+  isolation: 'isolate',
 });

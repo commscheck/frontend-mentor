@@ -1,17 +1,17 @@
-import * as React from "react";
-import { Link } from "gatsby";
+import * as React from 'react';
+import { Link } from 'gatsby';
 
-import InfoIcon from "../components/icons/InfoIcon";
-import Layout from "../components/layout/layout";
+import InfoIcon from '../components/icons/InfoIcon';
+import Layout from '../components/layout/layout';
 
-import * as styles from "./index.css";
+import * as styles from './index.css';
 
 const pages = [
   {
-    path: "/qr",
-    title: "QR code component",
+    path: '/qr',
+    title: 'QR code component',
     challengeUrl:
-      "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H",
+      'https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H',
   },
 ];
 
@@ -23,7 +23,7 @@ const Home = () => {
           <h1>Frontend Mentor Challenges</h1>
           <p>Hello! 👋</p>
           <p>
-            These are my attempts at solving the challenges on{" "}
+            These are my attempts at solving the challenges on{' '}
             <a href="https://www.frontendmentor.io/profile/commscheck">
               frontendmentor.io
             </a>
