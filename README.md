@@ -1,54 +1,35 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# Frontend Mentor Challenges
 
-## 🚀 Quick start
+This repo contains my attempts at solving the problems on [frontendmentor.io](https://www.frontendmentor.io/profile/commscheck).
 
-1.  **Create a Gatsby site.**
+The site itself is hosted at [fm.crankygoblin.net](https://fm.crankygoblin.net/).
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+## Development setup
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+Enable git-lfs and download assets:
 
-2.  **Start developing.**
+```sh
+brew install git-lfs
+git lfs install
+git lfs pull
+```
 
-    Navigate into your new site’s directory and start it up.
+Install dependencies:
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```sh
+npm install --global yarn
+yarn install
+```
 
-3.  **Open the code and start customizing!**
+Run locally in dev mode:
 
-    Your site is now running at http://localhost:8000!
+```sh
+yarn dev
+```
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+## Technologies
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+- [React](https://reactjs.org/) – UI framework
+- [TypeScript](https://www.typescriptlang.org/) – Strong type system for JavaScript
+- [vanilla-extract](https://vanilla-extract.style/) – Strongly-typed CSS-in-JS
+- [Gatsby](https://www.gatsbyjs.com/) – Static site generation
