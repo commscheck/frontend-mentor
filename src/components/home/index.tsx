@@ -5,6 +5,7 @@ import InfoIcon from '../icons/InfoIcon';
 import Layout from '../layout/layout';
 
 import * as styles from './home.css';
+import { Helmet } from 'react-helmet';
 
 const pages = [
   {
@@ -18,8 +19,14 @@ const pages = [
 const Home = () => {
   return (
     <Layout>
+      <Helmet>
+        <meta
+          name="description"
+          content="An iOS engineer's attempts at learning web development."
+        />
+      </Helmet>
       <div className={styles.container}>
-        <div className={styles.card}>
+        <main role="main" className={styles.card}>
           <h1>Frontend Mentor Challenges</h1>
           <p>Hello! 👋</p>
           <p>
@@ -43,7 +50,7 @@ const Home = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </main>
       </div>
     </Layout>
   );
